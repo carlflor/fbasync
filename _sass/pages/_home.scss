@@ -1,0 +1,122 @@
+.hero {
+  background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAJ0lEQVQoU2NkgID/DAwMjFA2VgokCVIEAgQV4jMILofXFGQTRqZCAAmKAgsKbmFXAAAAAElFTkSuQmCC') repeat;
+  min-height: 40vw;
+  position: relative;
+
+
+
+
+  .message {
+    align-items: center;
+    color: $white;
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+    justify-content: center;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    width: 100%;
+
+    > .fba-logo {
+      margin-bottom: 50px;
+      width: 150px;
+    }
+
+    > .message-box {
+      > h1 {
+        border: 3px solid $white;
+        font-size: 50px;
+        font-weight: 200;
+        padding: 30px 70px;
+        text-align: center;
+        text-transform: uppercase;
+      }
+
+      > .menu {
+        background: $white;
+        display: flex;
+        justify-content: space-around;
+        list-style: none;
+        margin: 0;
+        margin-top: 5px;
+
+        > .menu-item {
+          color: black;
+          display: inline-block;
+          flex: 1;
+          font-size: .9em;
+          font-weight: 200;
+          text-align: center;
+          text-transform: uppercase;
+          transition: all 0.3s ease;
+        }
+
+        > .menu-item:hover {
+          background-color: black;
+          color: white;
+        }
+      }
+
+    }
+  }
+}
+
+.talk-series {
+  background-color: $white;
+  display: flex;
+
+  > .image {
+    width: 50%;
+  }
+
+  > .schedule {
+    align-items: center;
+    background-color: #afd6e6;
+    display: flex;
+    justify-content: center;
+    margin: $spacing-unit;
+    width: 100%;
+
+    > .details h2 {font-size: 60px;}
+    > .details h3 {font-size: 25px;}
+
+    > .details a {
+      color: white;
+      font-size: 25px;
+      text-decoration: underline;
+    }
+  }
+
+}
+
+.events-panel {
+  background-color: gray;
+  display: flex;
+  justify-content: center;
+  padding: $spacing-unit;
+}
+
+.download-bulletin {
+  align-items: baseline;
+  display: flex;
+  font-size: 40px;
+  justify-content: center;
+  padding: $spacing-unit;
+
+  > a {
+    border: 1px solid black;
+    color: black;
+    display: block;
+    font-size: 30px;
+    margin-left: 30px;
+    padding: 20px;
+    transition: all 0.3s ease;
+
+    &:hover {
+      color: $white;
+      background-color: black;
+      text-decoration: none;
+    }
+  }
+}
