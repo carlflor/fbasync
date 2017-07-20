@@ -1,10 +1,14 @@
 //colors
+$gray: #4c4c4c;
+$light-gray: #f5f5f5;
 $white: #fff;
+$off-black: #1d1d1d;
 
 
 @import
-'components/video',
-'components/event'
+'components/event',
+'components/footer',
+'components/video'
 ;
 
 @import

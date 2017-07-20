@@ -31,14 +31,34 @@ layout: default
   </div>
   </div>
 </div>
-<div class="events-panel">
-  {% for event in site.events %}
-    {% if event.featured == true %}
-      <img class="event-thumb" src="{{site.baseurl}}{{ event.image }}">
-    {% endif %}
-  {% endfor %}
-</div>
 <div class="download-bulletin">
   <div class="message">Missed the session last Sunday?</div>
   <a src="">Download Bulletin</a>
 </div>
+<div class="events-panel">
+  {% for event in site.events %}
+    {% if event.featured == true %}
+      <img class="event-thumb" src="{{ site.baseurl }}{{ event.image }}">
+    {% endif %}
+  {% endfor %}
+  <div class="more">
+    Find out<br>more events
+  </div>
+</div>
+<div class="stories-panel">
+  {% for post in site.posts %}
+    <img class="story-bg" src="{{ site.baseurl }}{{ post.image }}">
+    <div class="details">
+      <div class="excerpt">
+        <h4>Featured Story</h4>
+        <p>
+          {{post.content}}
+        </p>
+      </div>
+      <div class="share">
+        We'd love to hear your story. Let us know through story@fbasync.com
+      </div>
+    </div>
+  {% endfor %}
+</div>
+{% include footer.html %}
