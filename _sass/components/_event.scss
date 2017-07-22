@@ -3,10 +3,15 @@
   object-fit: cover;
   width: 300px;
   filter: grayscale(100%);
-  transition: all 0.3s ease;
+  transition: filter 0.3s ease;
 
   &:hover {
     filter: none;
     //transform: scale(1.01);
+  }
+
+  &.-home {
+    height: 24vw;
+    width: 24vw;
   }
 }
