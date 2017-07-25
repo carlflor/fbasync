@@ -13,5 +13,10 @@
   &.-home {
     height: 24vw;
     width: 24vw;
+    @include media-query($on-palm) {
+      display: block;
+      height: calc(100vw - 40px);
+      width: 100vw;
+    }
   }
 }

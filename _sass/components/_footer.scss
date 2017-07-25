@@ -1,7 +1,13 @@
 .sync-footer {
   > .wrap {
     border-top: 1px solid black;
-    margin: 0 $spacing-unit;
+    margin: $spacing-unit 0;
     padding-top: $spacing-unit;
+    text-align: center;
+    > .social-media li {
+      display: inline-block;
+      font-size: 25px;
+      padding: $spacing-unit/2;
+    }
   }
 }

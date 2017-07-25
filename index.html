@@ -7,13 +7,6 @@ layout: default
     <img class="fba-logo" src="{{ '/assets/images/fbasync_white.png' | prepend: site.baseurl }}">
     <div class="message-box">
       <h1>Welcome Home</h1>
-      <ul class="menu">
-        <li class="menu-item">About</li>
-        <li class="menu-item">Sessions</li>
-        <li class="menu-item">Ministries</li>
-        <li class="menu-item">Events</li>
-        <li class="menu-item">Stories</li>
-      </ul>
     </div>
   </div>
 </div>
@@ -25,11 +18,10 @@ layout: default
     <div class="details">
       <h2>Come home<br>this Sunday</h2>
       <h3>
-        Talk 2<br>
-        July 16, 2017<br>
+        Big Day | July 30, 2017<br>
         PICC Meeting Room 1<br>
       </h3>
-      <a src="#">View other sessions</a>
+      <a href="{{ site.baseurl }}/sessions/">View other sessions</a>
   </div>
   </div>
 </div>
@@ -55,8 +47,12 @@ layout: default
       <img class="event-thumb -home" src="{{ site.baseurl }}{{ event.image }}">
     {% endif %}
   {% endfor %}
-  <div class="more">
+  <div class="more-events-home">
     Find out<br>more events
   </div>
 </div>
 {% include footer.html %}
+<script src="/assets/javascript/siema.min.js"></script>
+<script>
+  window.siema = new Siema();
+</script>

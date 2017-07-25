@@ -25,12 +25,16 @@
 .video-wrapper {
   min-height: 400px;
   height: 70vh;
-  
+
   overflow: hidden;
   > .video-player {
     min-height: 400px;
     height: 70vh;
     width: 100% !important;
     object-fit: cover;
+  }
+
+  @include media-query($on-palm) {
+    display: none;
   }
 }
