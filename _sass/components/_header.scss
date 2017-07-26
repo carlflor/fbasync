@@ -48,10 +48,8 @@
   @include media-query($on-palm) {
     position: absolute;
     top: 9px;
-    right: $spacing-unit / 2;
+    right: -10px;
     background-color: $background-color;
-    border: 1px solid $grey-color-light;
-    border-radius: 5px;
     text-align: right;
 
     label[for="nav-trigger"] {
@@ -80,21 +78,30 @@
     input ~ .trigger {
       clear: both;
       display: none;
+      transition: all 0.3s ease;
     }
 
     input:checked ~ .trigger {
       display: block;
-      padding-bottom: 5px;
+      position: fixed;
+      top: $spacing-unit * 3;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      z-index: 11;
+      background-color: white;
+      padding: $spacing-unit;
     }
 
     .page-link {
       display: block;
-      padding: 5px 10px;
+      padding: $spacing-unit/2 $spacing-unit;
+      font-size: 30px;
+      text-align: center;
 
       &:not(:last-child) {
         margin-right: 0;
       }
-      margin-left: 20px;
     }
   }
 }

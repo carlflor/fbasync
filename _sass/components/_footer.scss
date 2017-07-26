@@ -1,13 +1,27 @@
 .sync-footer {
   > .wrap {
+    line-height: normal;
     border-top: 1px solid black;
     margin: $spacing-unit 0;
     padding-top: $spacing-unit;
     text-align: center;
+    > .social-media { margin-left: 0}
     > .social-media li {
       display: inline-block;
       font-size: 25px;
       padding: $spacing-unit/2;
     }
+  }
+}
+
+.head-foot {
+  position: absolute;
+  left: $spacing-unit;
+  right: $spacing-unit;
+  bottom: 0;
+  display: none;
+
+  @include media-query($on-palm) {
+    display: block;
   }
 }
