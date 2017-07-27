@@ -1,0 +1,29 @@
+live:
+  name: Live Life - Tara Laro Tayo
+  image: /assets/images/events/livelife.jpg
+  front: /assets/images/events/livelife-featured.jpg
+  sched: June 25, 2017
+
+llr:
+  name: Love Life Retreat Batch 25
+  image: /assets/images/events/love-life.jpg
+  front: /assets/images/events/love-life-featured.jpg
+  sched: September 15-16, 2017
+
+kcon:
+  name: Kerygma Conference - Committed
+  image: /assets/images/events/kcon.jpg
+  front: /assets/images/events/kcon-featured.jpg
+  sched: November 23-26, 2017
+
+kids:
+  name: Awesome Kids Ministry
+  image: /assets/images/events/awesome-kids.png
+
+chorus:
+  name: Sync Chorus Auditions
+  image: /assets/images/events/sync-chorus.jpg
+
+deaf:
+  name: Deaf Ministry
+  image: /assets/images/events/deaf-ministry.jpg

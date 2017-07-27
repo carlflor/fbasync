@@ -3,4 +3,19 @@ layout: page
 title: Events
 permalink: /events/
 ---
-Hello
+<div class="events-main">
+  {% assign col1 = "live, llr, kids" | split: ", " %}
+  {% assign col2 = "kcon, deaf, chorus" | split: ", " %}
+  <div class="col-2">
+    {% for event_id in col1 %}
+      {% assign event = site.data.events[event_id] %}
+      <img class="event" src="{{ site.baseurl }}{{ event.image }}">
+    {% endfor %}
+  </div>
+  <div class="col-2">
+    {% for event_id in col2 %}
+      {% assign event = site.data.events[event_id] %}
+      <img class="event" src="{{ site.baseurl }}{{ event.image }}">
+    {% endfor %}
+  </div>
+</div>

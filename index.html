@@ -1,5 +1,9 @@
 ---
 layout: default
+feast_date: July 30, 2017
+feast_title: Big Day
+feast_venue: PICC Meeting Room 1
+events: live, llr, kcon
 ---
 <div class='hero'>
   {% include videobg.html %}
@@ -18,8 +22,8 @@ layout: default
     <div class="details">
       <h2>Come home<br>this Sunday</h2>
       <h3>
-        Big Day | July 30, 2017<br>
-        PICC Meeting Room 1<br>
+        {{page.feast_title}} | {{page.feast_date}}<br>
+        {{page.feast_venue}}<br>
       </h3>
       <a href="{{ site.baseurl }}/sessions/">View other sessions</a>
   </div>
@@ -41,18 +45,18 @@ layout: default
     </div>
   {% endfor %}
 </div>
-<div class="events-panel">
-  {% for event in site.events %}
-    {% if event.featured == true %}
-      <img class="event-thumb -home" src="{{ site.baseurl }}{{ event.image }}">
-    {% endif %}
+<div class="events-panel siema">
+  {% assign events = page.events | split: ", " %}
+  {% for event_id in events %}
+    {% assign event = site.data.events[event_id] %}
+    <img class="event-thumb -home" src="{{ site.baseurl }}{{ event.front }}">
   {% endfor %}
-  <div class="more-events-home">
-    Find out<br>more events
-  </div>
+  <a class="more-events-home" href="{{site.baseurl}}/events/">
+    Get Involved
+  </a>
 </div>
 {% include footer.html %}
 <script src="/assets/javascript/siema.min.js"></script>
 <script>
-  window.siema = new Siema();
+  //window.siema = new Siema();
 </script>
