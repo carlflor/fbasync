@@ -113,6 +113,11 @@
   letter-spacing: -1px;
   line-height: 1;
 
+  display: inline-block;
+  background-color: #1d1d1d;
+  color: white;
+  padding: $spacing-unit;
+
   @include media-query($on-laptop) {
     @include relative-font-size(2.25);
   }

@@ -13,12 +13,14 @@ $off-black: #1d1d1d;
 
 @import
 'components/columns',
+'components/copy',
 'components/footer',
 'components/header',
 'components/video'
 ;
 
 @import
+'pages/about',
 'pages/events',
 'pages/home'
 ;

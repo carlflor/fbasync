@@ -1,0 +1,10 @@
+.copy-container {
+  display: flex;
+  align-items: center;
+
+  .copy {
+    @include media-query($on-palm){
+      margin-top: 20px
+    };
+  }
+}

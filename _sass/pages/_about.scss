@@ -1,0 +1,90 @@
+.about-panel {
+  padding: $spacing-unit;
+  margin: $spacing-unit 0;
+  position: relative;
+
+  > .snippet {
+    padding: 20px;
+    background-color: $off-black;
+    color: white;
+    max-width: 300px;
+
+    &.-bottom-right {
+      position: absolute;
+      right: $spacing-unit;
+      bottom: $spacing-unit;
+    }
+
+    &.-invert {
+      background-color: $light-gray;
+      color: black;
+    }
+  }
+}
+
+.mission {
+  background: url("/assets/images/fba-about.jpg") top left;
+  background-size: cover;
+  height: 400px;
+}
+
+.what-we-do {
+  background-color: $light-gray;
+}
+
+.our-story {
+  margin-bottom: $spacing-unit;
+
+  img {
+    height: 100%;
+    object-fit: cover;
+
+    @include media-query-min(1200px) {
+      max-height: 350px;
+    }
+  }
+}
+
+.our-culture {
+  background-color: $off-black;
+  color: white;
+
+  .content {
+    display: flex;
+    flex-wrap: wrap;
+    @include media-query($on-palm){
+      display: block;
+    }
+    .culture {
+      flex: 0 0 50%;
+      margin-top: $spacing-unit;
+      h4 {margin-bottom: 10px;}
+      p {padding-right: $spacing-unit}
+
+    }
+  }
+}
+
+.message-builder {
+  background: url("/assets/images/fba-builder.jpg") top right;
+  background-size: cover;
+  @include media-query($on-palm){
+    background-position: right -280px bottom;
+  }
+  @include media-query-min(1000px) {
+    background-position: right top -70px;;
+  }
+
+  > .snippet {
+    max-width: 400px;
+
+    @include media-query(850px){
+      max-width: 300px;
+    }
+
+    @include media-query($on-palm){
+      margin-top: 250px;
+    }
+  }
+
+}
