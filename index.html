@@ -5,6 +5,8 @@ feast_date: July 30, 2017
 feast_time: 9 AM
 feast_venue: PICC Meeting Room 1
 events: live, llr, kcon
+address: SMX Convention Center,<br>Pasay City
+bulletin: SYNC-BULLETIN-07302017.pdf
 ---
 <div class='hero'>
   {% include videobg.html %}
@@ -22,11 +24,14 @@ events: live, llr, kcon
   <div class="schedule">
     <div class="details">
       <h2>Come home<br>this Sunday</h2>
-      <h3>
+      {% assign sync = site.data.sessions[1] %}
+      <h4>
         {{page.feast_title}} | {{page.feast_date}} | {{page.feast_time}}<br>
-        {{page.feast_venue}}<br>
-      </h3>
-      <a href="{{ site.baseurl }}/sessions/">View other sessions</a>
+        {{sync.venue}}<br>
+        {{page.address}}<br>
+      </h4>
+      <a href="{{ site.baseurl }}/sessions/">View other sessions</a><br>
+      <a href="{{ site.baseurl }}/assets/files/{{page.bulletin}}">Get our latest bulletin</a>
   </div>
   </div>
 </div>

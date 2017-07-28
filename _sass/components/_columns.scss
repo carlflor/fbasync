@@ -10,3 +10,27 @@
     .col-2.-left, .col-2.-right { padding: 0 }
   }
 }
+
+.panel {
+  padding: $spacing-unit;
+  margin: $spacing-unit 0;
+  position: relative;
+
+  > .snippet {
+    padding: 20px;
+    background-color: $off-black;
+    color: white;
+    max-width: 300px;
+
+    &.-bottom-right {
+      position: absolute;
+      right: $spacing-unit;
+      bottom: $spacing-unit;
+    }
+
+    &.-invert {
+      background-color: $light-gray;
+      color: black;
+    }
+  }
+}

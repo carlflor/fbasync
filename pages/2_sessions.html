@@ -2,5 +2,31 @@
 layout: page
 title: Sessions
 permalink: /sessions/
+address: SMX Convention Center,<br>Pasay City
 ---
-Hello
+<div class="sessions-page">
+  {% for session in site.data.sessions %}
+    <div class="panel session">
+      <div class="details">
+        <div class="detail -title">
+          <h2>{{session.name}}</h2>
+        </div>
+        <div class="detail">
+          Time
+          <h4>{{session.time}}</h4>
+        </div>
+        <div class="detail">
+          Venue
+          <h4>{{session.venue}}</h4>
+          <h4>{{page.address}}</h4>
+        </div>
+        <div class="detail">
+          Builders
+          {% for builder in session.builders %}
+            <h4>{{builder}}</h4>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+</div>

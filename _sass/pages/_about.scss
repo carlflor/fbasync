@@ -1,27 +1,3 @@
-.about-panel {
-  padding: $spacing-unit;
-  margin: $spacing-unit 0;
-  position: relative;
-
-  > .snippet {
-    padding: 20px;
-    background-color: $off-black;
-    color: white;
-    max-width: 300px;
-
-    &.-bottom-right {
-      position: absolute;
-      right: $spacing-unit;
-      bottom: $spacing-unit;
-    }
-
-    &.-invert {
-      background-color: $light-gray;
-      color: black;
-    }
-  }
-}
-
 .mission {
   background: url("/assets/images/fba-about.jpg") top left;
   background-size: cover;

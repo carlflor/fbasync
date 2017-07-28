@@ -1,0 +1,30 @@
+.session {
+  background-color: $light-gray;
+
+  .details {
+    display: flex;
+
+    @include media-query(700px){
+      display: block;
+    }
+
+    .detail {
+      flex: 1;
+      padding-left: $spacing-unit;
+      @include media-query(700px){
+        padding-left: 0;
+        margin-bottom: $spacing-unit;
+      }
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+
+      &.-title {
+        flex: .5;
+        min-width: 150px;
+        padding-left: 0;
+      }
+    }
+  }
+}

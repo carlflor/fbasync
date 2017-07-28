@@ -1,0 +1,28 @@
+- name: Morning Sessions
+  builders:
+    - Bro. Bo Sanchez
+    - Bro. Audee Villaraza
+  time: 8:00 AM & 10:45 AM
+  venue: Function Room 4 & 5
+- name: SYNC
+  builders:
+    - Bro. Didoy Lubaton
+  time: 9:00 AM
+  venue: Function Room 2
+- name: Youth High
+  builders:
+    - Bro. Anthony Valenzuela
+  time: 10:45 AM
+  venue: Meeting Room 10
+- name: Audience of One
+  builders:
+    - Bro. Adrian Panganiban
+    - Bro. JB Rodriguez
+  time: 11:30 AM
+  venue: Function Room 2
+- name: Afternoon Sessions
+  builders:
+    - Bro. Alvin Barcelona
+    - Bro. JC libiran
+  time: 1:15 PM & 3:45 PM
+  venue: Function Room 4 & 5
