@@ -8,6 +8,7 @@ llr:
   name: Love Life Retreat Batch 25
   image: /assets/images/events/love-life.jpg
   front: /assets/images/events/love-life-featured.jpg
+  banner: /assets/images/events/love-life-banner.jpg
   sched: September 15-16, 2017
 
 kcon:

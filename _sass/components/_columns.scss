@@ -1,0 +1,12 @@
+.cols {
+  display: flex;
+  .col-2 {
+    flex: 50%;
+    &.-left { padding-right: $spacing-unit/2 }
+    &.-right { padding-left: $spacing-unit/2 }
+  }
+  @include media-query($on-palm) {
+    display: block;
+    .col-2.-left, .col-2.-right { padding: 0 }
+  }
+}

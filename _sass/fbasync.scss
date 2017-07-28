@@ -12,12 +12,13 @@ $off-black: #1d1d1d;
 
 
 @import
-'components/event',
+'components/columns',
 'components/footer',
 'components/header',
 'components/video'
 ;
 
 @import
+'pages/events',
 'pages/home'
 ;

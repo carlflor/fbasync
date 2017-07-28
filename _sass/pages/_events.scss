@@ -1,0 +1,11 @@
+.events-main {
+  .event {
+    margin-bottom: $spacing-unit;
+
+    .sub { display: none }
+    @include media-query($on-palm) {
+      .banner { display: none }
+      .sub { display: block }
+    }
+  }
+}
