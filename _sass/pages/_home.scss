@@ -28,7 +28,7 @@
     > .message-box {
       > h1 {
         border: 3px solid $white;
-        font-size: 50px;
+        @include relative-font-size(4.236);
         font-weight: 200;
         padding: 30px 70px;
         text-align: center;
@@ -36,6 +36,7 @@
 
         @include media-query($on-palm) {
           font-size: 45px;
+          line-height: 50px;
           padding: 10px;
           max-width: 250px;
         }
@@ -73,18 +74,21 @@
     padding: $spacing-unit;
 
     > .details h2 {
-      font-size: 60px;
+      @include relative-font-size(4.236);
+      // font-size: 60px;
       line-height: 65px;
       margin-bottom: $spacing-unit;
       @include media-query($on-palm) {
         max-width: 300px;
       }
     }
-    > .details h3 {font-size: 25px;}
+    > .details h3,
+    > .details a {
+      @include relative-font-size(1.618);
+    }
 
     > .details a {
       color: white;
-      font-size: 25px;
     }
   }
 }
@@ -151,7 +155,7 @@
       @include media-query($on-palm) {
         display: block;
         height: calc(100vw - 40px);
-        width: 100vw;
+        width: 100%;
         filter: none;
       }
     }
