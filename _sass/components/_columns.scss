@@ -16,6 +16,10 @@
   margin: $spacing-unit 0;
   position: relative;
 
+  &.-gray {
+    background-color: $light-gray;
+  }
+
   > .snippet {
     padding: 20px;
     background-color: $off-black;

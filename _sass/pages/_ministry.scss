@@ -1,0 +1,13 @@
+.ministry {
+  display: flex;
+  @include media-query(750px) {
+    display: block;
+  }
+
+  > h2 {
+    min-width: 400px;
+    @include media-query(750px) {
+      min-width: inherit;
+    }
+  }
+}

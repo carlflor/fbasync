@@ -3,3 +3,13 @@ layout: page
 title: Ministries
 permalink: /ministries/
 ---
+<div class="ministries-page">
+  {% for ministry in site.data.ministries %}
+    <div class="panel -gray ministry">
+      <h2>{{ministry.name}}</h2>
+      <div>
+        {{ministry.description}}
+      </div>
+    </div>
+  {% endfor %}
+</div>
