@@ -3,4 +3,21 @@ layout: page
 title: Stories
 permalink: /stories/
 ---
-Hello
+<div class="stories-panel">
+  {% for post in site.posts %}
+    <a class="story" href="{{ post.url }}">
+      <div class="details">
+        <div class="excerpt">
+          <h3>Featured Story</h3>
+          <p>
+            {{post.excerpt}}
+            <span class="read-more">Read More</span>
+          </p>
+        </div>
+        <div class="share">
+          We'd love to hear your story. Let us know through <b>story@fbasync.com</b>
+        </div>
+      </div>
+    </a>
+  {% endfor %}
+</div>

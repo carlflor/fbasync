@@ -32,27 +32,31 @@ events: live, llr, kcon
         {{page.address}}<br>
       </h4>
       <a href="{{ site.baseurl }}/sessions/">View other sessions</a><br>
-      <a href="{{ site.baseurl }}/assets/files/{{page.bulletin}}">Get our latest bulletin</a>
+      <a href="{{ site.baseurl }}/bulletin/{{page.bulletin}}" target="_blank">Get our latest bulletin</a>
   </div>
   </div>
 </div>
 <div class="stories-panel">
   {% for post in site.posts %}
-    <img class="story-bg" src="{{ site.baseurl }}{{ post.image }}">
-    <div class="details">
-      <div class="excerpt">
-        <h4>Featured Story</h4>
-        <p>
-          {{post.content}}
-        </p>
-      </div>
-      <div class="share">
-        We'd love to hear your story. Let us know through story@fbasync.com
-      </div>
-    </div>
+    {% if post.featured %}
+      {% assign imagesrc = post.image | prepend: site.baseurl | prepend: site.url %}
+      <!-- <a class="story" href="{{ post.url }}" style="background-image: url('{{imagesrc}}');"> -->
+      <a class="story" href="{{ post.url }}">
+        <div class="details">
+          <div class="excerpt">
+            <h3>Featured Story</h3>
+            {{post.excerpt}}
+            <span class="read-more">Read More</span>
+          </div>
+          <div class="share">
+            We'd love to hear your story. Let us know through <b>story@fbasync.com</b>
+          </div>
+        </div>
+      </a>
+    {% endif %}
   {% endfor %}
 </div>
-<div class="events-panel siema">
+<div class="events-panel">
   {% assign events = page.events | split: ", " %}
   {% for event_id in events %}
     {% assign event = site.data.events[event_id] %}
@@ -63,7 +67,7 @@ events: live, llr, kcon
   </a>
 </div>
 {% include footer.html %}
-<script src="/assets/javascript/siema.min.js"></script>
+<!-- <script src="/assets/javascript/siema.min.js"></script>
 <script>
   //window.siema = new Siema();
-</script>
+</script> -->

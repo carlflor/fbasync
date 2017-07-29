@@ -21,6 +21,9 @@
     background-color: $off-black;
     color: white;
     max-width: 300px;
+    @include media-query($on-palm) {
+      right: $spacing-unit;
+    }
 
     &.-bottom-right {
       position: absolute;
@@ -28,9 +31,19 @@
       bottom: $spacing-unit;
     }
 
+    &.-bottom-left {
+      position: absolute;
+      left: $spacing-unit;
+      bottom: $spacing-unit;
+    }
+
     &.-invert {
       background-color: $light-gray;
       color: black;
+    }
+
+    &.-wide {
+      max-width: inherit;
     }
   }
 }

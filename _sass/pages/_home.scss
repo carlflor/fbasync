@@ -68,7 +68,7 @@
   > .schedule {
     flex:50%;
     align-items: center;
-    background-color: #afd6e6;
+    background-color: #d69697;
     display: flex;
     justify-content: center;
     padding: $spacing-unit;
@@ -94,38 +94,55 @@
 }
 
 .stories-panel {
-  height: 500px;
-  position: relative;
   margin: $spacing-unit 0;
+  > .story {
+    display: block;
+    background: url("/assets/images/posts/meet-anel.jpg");
+    background-size: cover;
+    background-position: top right;
+    height: 500px;
+    position: relative;
+    filter: brightness(100%);
+    transition: filter 0.3s ease;
 
-  > .story-bg {
-    height: 100%;
-    object-fit: cover;
-    width: 100%;
-  }
+    &:hover {
+      filter: brightness(120%);
 
-  > .details {
-    position: absolute;
-    top: $spacing-unit;
-    left: $spacing-unit;
-    max-width: 400px;
-    @include media-query($on-palm) {
-      right: $spacing-unit;
-      bottom: $spacing-unit;
-      top: auto;
-      max-width: inherit;
+      .read-more {
+        text-decoration: underline;
+        display: inline;
+      }
     }
 
-    > .excerpt {
-      background: $light-gray;
-      padding: $spacing-unit/2;
-      margin-bottom: $spacing-unit/2;
-    }
+    > .details {
+      position: absolute;
+      top: $spacing-unit;
+      left: $spacing-unit;
+      max-width: 400px;
+      @include media-query(700px) {
+        right: $spacing-unit;
+        bottom: $spacing-unit;
+        top: auto;
+        max-width: inherit;
+      }
 
-    > .share {
-      background: $off-black;
-      color: white;
-      padding: $spacing-unit/2;
+      > .excerpt {
+        background: $light-gray;
+        padding: $spacing-unit/2;
+        margin-bottom: $spacing-unit/2;
+
+        > .read-more {font-size: 0.75em}
+
+        p {
+          display: inline;
+        }
+      }
+
+      > .share {
+        background: $off-black;
+        color: white;
+        padding: $spacing-unit/2;
+      }
     }
   }
 }
@@ -172,6 +189,7 @@
   align-items: center;
   font-size: 30px;
 
+  &:hover,
   &:visited {
     color: white;
   }
