@@ -6,7 +6,7 @@
 
     {% if page_paths %}
       <nav class="site-nav">
-        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" onchange="onNavTrigger(this)" />
         <label for="nav-trigger">
           <span class="menu-icon">
             <svg viewBox="0 0 18 15" width="18px" height="15px">
@@ -32,4 +32,14 @@
       </nav>
     {% endif %}
   </div>
+  <script>
+    function onNavTrigger(target){
+      const body = document.querySelector('body').classList;
+      if(target.checked) {
+        body.add('freeze');
+      } else {
+        body.remove('freeze');
+      }
+    }
+  </script>
 </header>

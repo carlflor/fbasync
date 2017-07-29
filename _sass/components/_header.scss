@@ -105,3 +105,11 @@
     }
   }
 }
+
+.freeze {
+  @include media-query($on-palm) {
+    overflow: hidden;
+    margin: 0;
+    height: 100%;
+  }
+}
