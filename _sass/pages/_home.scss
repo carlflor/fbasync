@@ -29,7 +29,7 @@
       > h1 {
         border: 3px solid $white;
         @include relative-font-size(4.236);
-        font-weight: 200;
+        font-weight: bold;
         padding: 30px 70px;
         text-align: center;
         text-transform: uppercase;

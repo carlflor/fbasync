@@ -1,25 +1,26 @@
 ---
 layout: default
+feast_image: leak-big-day.jpg
 feast_title: Big Day
 feast_date: July 30, 2017
 feast_time: 9 AM
 feast_venue: PICC Meeting Room 1
-events: live, llr, kcon
 address: SMX Convention Center,<br>Pasay City
 bulletin: SYNC-BULLETIN-07302017.pdf
+events: live, llr, kcon
 ---
 <div class='hero'>
   {% include videobg.html %}
   <div class="message">
     <img class="fba-logo" src="{{ '/assets/images/fbasync_white.png' | prepend: site.baseurl }}">
     <div class="message-box">
-      <h1>Welcome Home</h1>
+      <h1 >Welcome Home</h1>
     </div>
   </div>
 </div>
 <div class="talk-series">
   <div class="image-wrapper">
-    <img class="image" src="{{ '/assets/images/talks/leak-series.jpg' | prepend: site.baseurl }}">
+    <img class="image" src="{{ '/assets/images/talks/' | prepend: site.baseurl | append: page.feast_image }}">
   </div>
   <div class="schedule">
     <div class="details">
