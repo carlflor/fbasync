@@ -1,0 +1,25 @@
+---
+layout: page
+title: FAQs
+permalink: /faqs/
+---
+<div class="ministries-page">
+  {% for faq in site.data.faqs %}
+    <div class="panel -gray info-panel">
+      <h2>{{faq.question}}</h2>
+      <div>
+        {{faq.answer}}
+        {% if faq.list != null%}
+          <ul>
+          {% for item in faq.list %}
+            <li>{{item}}</li>
+          {% endfor %}
+          </ul>
+        {% endif %}
+      </div>
+    </div>
+  {% endfor %}
+</div>
+<div class="got-more">
+  Got more questions? Feel free to contact us through <b>hello@fbasync.com</b>
+</div>
