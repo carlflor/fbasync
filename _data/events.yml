@@ -24,6 +24,7 @@ kids:
 chorus:
   name: Sync Chorus Auditions
   image: /assets/images/events/sync-chorus.jpg
+  front: /assets/images/events/sync-chorus.jpg
 
 deaf:
   name: Deaf Ministry

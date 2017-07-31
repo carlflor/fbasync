@@ -1,13 +1,13 @@
 ---
 layout: default
-feast_image: leak-big-day.jpg
-feast_title: Big Day
-feast_date: July 30, 2017
+sched_color: b7b7b7
+feast_image: taboo-series.jpg
+feast_title: Talk 1
+feast_date: Aug 6, 2017
 feast_time: 9 AM
-feast_venue: PICC Meeting Room 1
 address: SMX Convention Center,<br>Pasay City
 bulletin: SYNC-BULLETIN-07302017.pdf
-events: live, llr, kcon
+events: chorus, llr, kcon
 ---
 <div class='hero'>
   {% include videobg.html %}
@@ -22,7 +22,7 @@ events: live, llr, kcon
   <div class="image-wrapper">
     <img class="image" src="{{ '/assets/images/talks/' | prepend: site.baseurl | append: page.feast_image }}">
   </div>
-  <div class="schedule">
+  <div class="schedule" style="background-color: #{{ page.sched_color }};">
     <div class="details">
       <h2>Come home<br>this Sunday</h2>
       {% assign sync = site.data.sessions[1] %}

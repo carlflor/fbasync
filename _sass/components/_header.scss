@@ -104,6 +104,9 @@
       }
     }
   }
+  @include media-query(350px) {
+    .page-link {font-size: 20px;}
+  }
 }
 
 .freeze {

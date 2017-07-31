@@ -10,6 +10,13 @@ $off-black: #1d1d1d;
   padding-top: $spacing-unit * 3;
 }
 
+a {
+  text-decoration: underline;
+
+  &.no-line {
+    text-decoration: none;
+  }
+}
 
 @import
 'components/columns',

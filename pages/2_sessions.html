@@ -21,7 +21,12 @@ address: SMX Convention Center,<br>Pasay City
           <h4>{{page.address}}</h4>
         </div>
         <div class="detail">
-          Builders
+          {% assign builder_count = session.builders | size %}
+          {% if builder_count > 1 %}
+            Builders
+          {% else %}
+            Builder
+          {% endif %}
           {% for builder in session.builders %}
             <h4>{{builder}}</h4>
           {% endfor %}
