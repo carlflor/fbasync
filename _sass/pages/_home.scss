@@ -49,9 +49,41 @@
   background-color: $white;
   display: flex;
   margin: $spacing-unit 0;
+  position: relative;
 
   @include media-query($on-palm) {
     display: block;
+  }
+
+  > .popup-vid-container {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: $spacing-unit;
+    text-align: center;
+
+    > .popup-vid {
+      color: white;
+      padding: $spacing-unit/2 15px;
+      display: inline-block;
+      border: 1px solid white;
+      max-width: 50px;
+
+      @include media-query($on-palm) {
+        border: none;
+        max-width: 100%;
+        .play {display: none;}
+      }
+    }
+
+    i {
+      font-size: 30px;
+    }
+
+    @include media-query($on-palm) {
+      position: relative;
+      background-color: $off-black;
+    }
   }
 
   > .image-wrapper {
@@ -71,14 +103,17 @@
     background-color: #d69697;
     display: flex;
     justify-content: center;
-    padding: $spacing-unit;
+
+    > .details {
+      padding: $spacing-unit;
+    }
 
     > .details h2 {
       @include relative-font-size(4.236);
       // font-size: 60px;
       line-height: 65px;
       margin-bottom: $spacing-unit;
-      @include media-query($on-palm) {
+      @include media-query(1000px) {
         max-width: 300px;
         @include relative-font-size(2.618);
         line-height: 45px;
@@ -197,7 +232,7 @@
   }
 
   @include media-query($on-palm) {
-    height: 50vw;
+    height: 24vw;
     width: 100%;
     margin-top: $spacing-unit;
   }
