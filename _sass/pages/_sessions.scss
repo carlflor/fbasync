@@ -1,6 +1,11 @@
 .session {
   background-color: $light-gray;
 
+  &:nth-child(2) {
+    background-color: $off-black;
+    color: white;
+  }
+
   .details {
     display: flex;
 
