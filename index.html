@@ -47,8 +47,8 @@ video: "https://www.youtube.com/watch?v=9RVaR4fLkxY"
   {% for post in site.posts %}
     {% if post.featured %}
       {% assign imagesrc = post.image | prepend: site.baseurl | prepend: site.url %}
-      <!-- <a class="story" href="{{ post.url }}" style="background-image: url('{{imagesrc}}');"> -->
-      <a class="story" href="{{ post.url }}">
+      <a class="story" href="{{ post.url }}" style="background-image: url('{{imagesrc}}');">
+      <!-- <a class="story" href="{{ post.url }}"> -->
         <div class="details">
           <div class="excerpt">
             <h3>Featured Story</h3>
