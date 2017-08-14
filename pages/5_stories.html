@@ -5,19 +5,20 @@ permalink: /stories/
 ---
 <div class="stories-panel">
   {% for post in site.posts %}
-    <a class="story" href="{{ post.url }}">
+    {% assign imagesrc = post.image | prepend: site.baseurl | prepend: site.url %}
+    <a class="story -margin" href="{{ post.url }}" style="background-image: url({{imagesrc}});">
       <div class="details">
         <div class="excerpt">
-          <h3>Featured Story</h3>
+          <h3>{{post.title}}</h3>
           <p>
             {{post.excerpt}}
             <span class="read-more">Read More</span>
           </p>
         </div>
-        <div class="share">
-          We'd love to hear your story. Let us know through <b>story@fbasync.com</b>
-        </div>
       </div>
     </a>
   {% endfor %}
+</div>
+<div class="got-more">
+  How have you been blessed? We'd love to hear from you! Share us your story through <b>story@fbasync.com</b>
 </div>
