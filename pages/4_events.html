@@ -5,8 +5,8 @@ permalink: /events/
 ---
 <div class="events-main">
   {% assign banner = "llr" %}
-  {% assign col1 = "chorus, kids" | split: ", " %}
-  {% assign col2 = "kcon, deaf" | split: ", " %}
+  {% assign col1 = "blood,serve,chorus,kids" | split: "," %}
+  {% assign col2 = "kcon,kpartner,deaf" | split: "," %}
   {% if banner != "none" %}
     <div class="event">
       {% assign event = site.data.events[banner] %}
