@@ -105,7 +105,7 @@
     justify-content: center;
 
     > .details {
-      padding: $spacing-unit;
+      padding: 30px $spacing-unit;
     }
 
     > .details h2 {
@@ -127,6 +127,16 @@
     > .details a {
       color: white;
     }
+
+    .latest-bulletin {
+      background: $off-black;
+      padding: 10px;
+      text-decoration: none;
+
+      &:hover {
+        filter: brightness(120%);
+      }
+    }
   }
 }
 
@@ -142,7 +152,7 @@
     transition: filter 0.3s ease;
 
     &:hover {
-      filter: brightness(120%);
+      filter: brightness(150%);
 
       .read-more {
         text-decoration: underline;
