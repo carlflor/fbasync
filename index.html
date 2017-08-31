@@ -45,23 +45,22 @@ video: "https://www.youtube.com/watch?v=OpGbjAWTEzU"
   </div>
   </div>
 </div>
-<div class="stories-panel">
+<div class="featured-story-panel">
   {% for post in site.posts %}
     {% if post.featured %}
-      {% assign imagesrc = post.image | prepend: site.baseurl | prepend: site.url %}
-      <a class="story" href="{{ post.url }}" style="background-image: url({{imagesrc}});">
-      <!-- <a class="story" href="{{ post.url }}"> -->
-        <div class="details">
-          <div class="excerpt">
-            <h3>{{post.title}}</h3>
-            {{post.excerpt}}
-            <span class="read-more">Read More</span>
-          </div>
-          <div class="share">
-            We'd love to hear your story. Let us know through <b>story@fbasync.com</b>
-          </div>
-        </div>
-      </a>
+      <div class="snippet">
+        <h2>Featured Story: {{post.title}}</h2>
+        {{post.excerpt}}
+        <a class="read-more" href="{{ post.url }}">Read More</a>
+      </div>
+      <div class="image">
+        {% assign imagesrc = post.image | prepend: site.baseurl | prepend: site.url %}
+        <img src="{{ imagesrc }}">
+      </div>
+      <hr>
+      <div class="email">
+        We'd love to hear your story. Let us know through <b>story@fbasync.com</b>
+      </div>
     {% endif %}
   {% endfor %}
 </div>
@@ -76,7 +75,3 @@ video: "https://www.youtube.com/watch?v=OpGbjAWTEzU"
   </a>
 </div>
 {% include footer.html %}
-<!-- <script src="/assets/javascript/siema.min.js"></script>
-<script>
-  //window.siema = new Siema();
-</script> -->

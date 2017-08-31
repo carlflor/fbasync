@@ -140,56 +140,37 @@
   }
 }
 
-.stories-panel {
-  margin: $spacing-unit 0;
-  > .story {
-    display: block;
-    background-size: cover;
-    background-position: center right;
-    height: 500px;
-    position: relative;
-    filter: brightness(100%);
-    transition: filter 0.3s ease;
+.featured-story-panel {
+  padding: $spacing-unit;
+  background-color: $off-black;
+  color: white;
 
-    &:hover {
-      filter: brightness(110%);
+  > .snippet {
+    margin-bottom: $spacing-unit;
 
-      .read-more {
-        text-decoration: underline;
-        display: inline;
-      }
+    h2 {margin-bottom: $spacing-unit;}
+
+    p, a {
+      display: inline;
     }
 
-    > .details {
-      position: absolute;
-      top: $spacing-unit;
-      left: $spacing-unit;
-      max-width: 400px;
-      @include media-query(700px) {
-        right: $spacing-unit;
-        bottom: $spacing-unit;
-        top: auto;
-        max-width: inherit;
-      }
+    a {color: white;}
+  }
 
-      > .excerpt {
-        background: $light-gray;
-        padding: $spacing-unit/2;
-        margin-bottom: $spacing-unit/2;
+  hr {
+    margin: $spacing-unit 0;
+  }
 
-        > .read-more {font-size: 0.75em}
-
-        p {
-          display: inline;
-        }
-      }
-
-      > .share {
-        background: $off-black;
-        color: white;
-        padding: $spacing-unit/2;
-      }
+  > .image {
+    img {
+      max-height: 500px;
+      object-fit: cover;
     }
+  }
+
+  > .email {
+    margin-top: $spacing-unit;
+    text-align: center;
   }
 }
 

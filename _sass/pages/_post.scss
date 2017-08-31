@@ -11,9 +11,9 @@
 }
 
 .banner-image {
-  background-size: cover;
-  background-position: center right;
-  height: 400px;
+  margin-top: $spacing-unit;
+  max-height: 500px;
+  object-fit: cover;
 }
 
 .stories-content {
@@ -24,5 +24,48 @@
 .story {
   &.-margin {
     margin-bottom: $spacing-unit;
+  }
+}
+
+.stories-main {
+  display: flex;
+  @include media-query($on-palm) {
+    display: block;
+  }
+}
+
+.all-stories {
+  width: 100%;
+  max-width: 65vw;
+  flex-shrink: 0;
+  @include media-query($on-palm) {
+    max-width: 100%;
+  }
+
+  > article {
+    margin-bottom: $spacing-unit;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  > article .entry-content {
+    background-color: $light-gray;
+    padding: 20px;
+    p {display: inline;}
+  }
+
+}
+
+.got-more-panel {
+  background-color: $off-black;
+  color: white;
+  padding: $spacing-unit;
+  margin-left: $spacing-unit;
+  font-size: 30px;
+  text-align: center;
+  @include media-query($on-palm) {
+    margin: $spacing-unit 0 0 0;
   }
 }

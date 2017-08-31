@@ -3,22 +3,27 @@ layout: page
 title: Stories
 permalink: /stories/
 ---
-<div class="stories-panel">
-  {% for post in site.posts %}
-    {% assign imagesrc = post.image | prepend: site.baseurl | prepend: site.url %}
-    <a class="story -margin" href="{{ post.url }}" style="background-image: url({{imagesrc}});">
-      <div class="details">
-        <div class="excerpt">
-          <h3>{{post.title}}</h3>
-          <p>
-            {{post.excerpt}}
-            <span class="read-more">Read More</span>
-          </p>
+<div class="stories-main">
+  <div class="all-stories">
+    {% for post in site.posts %}
+      {% assign imagesrc = post.image | prepend: site.baseurl | prepend: site.url %}
+      <article>
+        <div class="entry-banner">
+          <a class="image-link" href="{{ post.url }}">
+            <img src="{{ imagesrc }}">
+          </a>
         </div>
-      </div>
-    </a>
-  {% endfor %}
-</div>
-<div class="got-more">
-  How have you been blessed? We'd love to hear from you! Share us your story through <b>story@fbasync.com</b>
+        <div class="entry-content">
+          <h2><b>{{post.title}}</b></h2>
+          {{post.excerpt}}
+          <a class="read-more" href="{{ post.url }}">Read More</a>
+        </div>
+      </article>
+    {% endfor %}
+  </div>
+  <div>
+    <div class="got-more-panel">
+      How have you been blessed? We'd love to hear from you! Share us your story through <b>story@fbasync.com</b>
+    </div>
+  </div>
 </div>

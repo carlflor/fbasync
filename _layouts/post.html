@@ -6,7 +6,9 @@ layout: default
   <header class="post-header">
     <h2 class="post-title">Stories</h2>
     <h1 class="main-title" itemprop="name headline">{{ page.title | escape }}</h1>
-    <div class="panel banner-image" style="background-image: url('{{ site.baseurl }}{{ page.image }}');" />
+    <!-- <div class="panel banner-image" style="background-image: url('{{ site.baseurl }}{{ page.image }}');" /> -->
+    {% assign imagesrc = page.image | prepend: site.baseurl | prepend: site.url %}
+    <img class="banner-image" src="{{ imagesrc }}">
   </header>
 
   <div class="post-content stories-content" itemprop="articleBody">
