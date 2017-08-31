@@ -5,5 +5,69 @@ permalink: /gallery/
 hide: true
 ---
 <div class="gallery">
+  <div id="gallery-container">
+  </div>
   <iframe src="https://drive.google.com/embeddedfolderview?id=0B8Xd3OjxKFD6VnhZY2VLUW0tQ28#grid" width="100%" height="600px" frameborder="0"></iframe>
 </div>
+<script src="https://apis.google.com/js/api.js"></script>
+<script>
+function start() {
+  // 2. Initialize the JavaScript client library.
+  gapi.client.init({
+    'apiKey': 'AIzaSyCrwsZe_pNqpxj-lss8pXtBp4NW0PAOkJQ',
+  }).then(function() {
+    // 3. Initialize and make the API request.
+    var folderId = '0B8Xd3OjxKFD6VnhZY2VLUW0tQ28'
+    var reqPath = "https://www.googleapis.com/drive/v3/files?q='" + folderId + "'+in+parents"
+    reqPath = reqPath + "&pageSize=4"
+    return gapi.client.request({
+      'path': reqPath
+    })
+  }).then(function(response) {
+    console.log(response.result);
+    var nextPageToken = response.result.nextPageToken;
+    var files = response.result.files;
+
+    var fileRequest = files.map( function(file){
+      var fileId = file.id;
+      var reqPath = "https://www.googleapis.com/drive/v2/files/" + fileId
+      return gapi.client.request({
+        'path': reqPath
+      })
+    })
+
+    return Promise.all(fileRequest)
+
+
+  }).then(function(response) {
+
+    var wallpapers = response.map(function(resp){
+      return resp.result;
+    })
+    populateGallery(wallpapers);
+  }, function(reason) {
+    console.log('Error',reason);
+  });
+};
+// 1. Load the JavaScript client library.
+// gapi.load('client', start);
+
+function populateGallery(wallpapers){
+  console.log(wallpapers);
+
+  var galleryContainer = document.querySelector('#gallery-container');
+
+  wallpapers.map(function(wallpaper){
+    var imageWrapper = document.createElement('div');
+    var imageContent = document.createElement('img');
+    imageContent.src = wallpaper.thumbnailLink;
+    imageContent.className = "wallpaper-thumb"
+
+    imageWrapper.className = 'wallpaper-wrapper';
+    imageWrapper.appendChild(imageContent);
+    galleryContainer.appendChild(imageWrapper);
+  })
+}
+
+
+</script>
