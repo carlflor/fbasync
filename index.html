@@ -1,21 +1,21 @@
 ---
 layout: default
-sched_color: b7b7b7
-feast_image: taboo-big-day.jpg
-feast_title: 'Big Day'
-feast_date: Aug 27, 2017
+sched_color: 828bac
+feast_image: treasure.jpg
+feast_title: 'Talk 1'
+feast_date: Sept 3, 2017
 feast_time: 9 AM
 address: PICC, Pasay City
-bulletin: SYNC-BULLETIN-08202017.pdf
+bulletin: SYNC-BULLETIN-08272017.pdf
 events: chorus, llr, kcon
-video: "https://www.youtube.com/watch?v=9RVaR4fLkxY"
+video: "https://www.youtube.com/watch?v=OpGbjAWTEzU"
 ---
 <div class='hero'>
   {% include videobg.html %}
   <div class="message">
     <img class="fba-logo" src="{{ '/assets/images/fbasync_white.png' | prepend: site.baseurl }}">
     <div class="message-box">
-      <h1 >Welcome Home</h1>
+      <h1>Welcome Home</h1>
     </div>
   </div>
 </div>
@@ -23,12 +23,14 @@ video: "https://www.youtube.com/watch?v=9RVaR4fLkxY"
   <div class="image-wrapper">
     <img class="image" src="{{ '/assets/images/talks/' | prepend: site.baseurl | append: page.feast_image }}">
   </div>
+  {% if page.video != 'none' %}
   <div class="popup-vid-container">
     <a id="popup-vid" class="popup-vid no-line" href="{{page.video}}">
       <i class="fa fa-play" aria-hidden="true"></i>
       <span class="play">play</span>
     </a>
   </div>
+  {% endif %}
   <div class="schedule" style="background-color: #{{ page.sched_color }};">
     <div class="details">
       <h2>Come home<br>this Sunday</h2>

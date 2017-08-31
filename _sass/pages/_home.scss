@@ -145,14 +145,14 @@
   > .story {
     display: block;
     background-size: cover;
-    background-position: top right;
+    background-position: center right;
     height: 500px;
     position: relative;
     filter: brightness(100%);
     transition: filter 0.3s ease;
 
     &:hover {
-      filter: brightness(150%);
+      filter: brightness(110%);
 
       .read-more {
         text-decoration: underline;

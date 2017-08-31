@@ -3,7 +3,6 @@ layout: post
 title: 'My One True Calling'
 slug: one-true-calling
 image: /assets/images/posts/zena.jpg
-featured: true
 description: Zena Magana works as a school guidance counselor. She is part of the Deaf and Hard-of-Hearing Ministry and serves as an interpreter every Sunday.
 excerpt_separator: <!--more-->
 ---
