@@ -3,7 +3,6 @@ layout: post
 title: 'Finding Peace in Him'
 slug: finding-peace
 image: /assets/images/posts/cams.jpg
-featured: true
 description: "Cams Alfaro and her son Biboy used to spend their Sundays by themselves. But now, they have found a new home at Sync where Biboy serves as a greeter for the Warmth Ministry, and with Cams’ batchmates from LLR Batch 21."
 excerpt_separator: <!--more-->
 author: Tina Tindugan
