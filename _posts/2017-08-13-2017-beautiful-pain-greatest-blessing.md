@@ -3,7 +3,7 @@ layout: post
 title: 'Our beautiful pain, our greatest blessing'
 slug: beautiful-pain-greatest-blessing
 image: /assets/images/posts/rizal-pinlac.jpg
-description: ""
+description: "The author, Rizal and Brenda with their daughter Julia and son, Rich Enzo. The Pinlac family first attended The Feast in Valle Verde in January 2008 and continues to do so till now."
 excerpt_separator: <!--more-->
 author: Rizal Pinlac
 ---

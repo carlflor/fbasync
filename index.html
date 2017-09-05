@@ -6,7 +6,7 @@ feast_title: 'Talk 2: Legacy'
 feast_date: Sept 9, 2017
 feast_time: 9 AM
 address: PICC, Pasay City
-bulletin: SYNC-BULLETIN-08272017.pdf
+bulletin: SYNC-BULLETIN-09032017.pdf
 events: chorus, llr, kcon
 video: "https://www.youtube.com/watch?v=OpGbjAWTEzU"
 ---
@@ -68,7 +68,9 @@ video: "https://www.youtube.com/watch?v=OpGbjAWTEzU"
   {% assign events = page.events | split: ", " %}
   {% for event_id in events %}
     {% assign event = site.data.events[event_id] %}
-    <img class="event-thumb -home" src="{{ site.baseurl }}{{ event.front }}">
+    <a href="{{site.baseurl}}/events/">
+      <img class="event-thumb -home" src="{{ site.baseurl }}{{ event.front }}">
+    </a>
   {% endfor %}
   <a class="more-events-home" href="{{site.baseurl}}/events/">
     Get Involved

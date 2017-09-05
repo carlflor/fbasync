@@ -63,9 +63,17 @@
   color: white;
   padding: $spacing-unit;
   margin-left: $spacing-unit;
-  font-size: 30px;
+  font-size: 23px;
   text-align: center;
+  @include media-query(1000px) {
+    font-size: 17px;
+  }
   @include media-query($on-palm) {
     margin: $spacing-unit 0 0 0;
   }
+}
+
+.story-description {
+  font-size: 23px;
+  margin-bottom: $spacing-unit;
 }

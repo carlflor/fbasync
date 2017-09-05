@@ -41,3 +41,7 @@ blood:
 serve:
   name: Call to Serve
   image: /assets/images/events/serve.jpg
+
+video:
+  name: Feast Video
+  image: /assets/images/events/video.jpg
