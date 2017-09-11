@@ -3,10 +3,9 @@ layout: post
 title: 'Breaking Free'
 slug: breaking-free
 image: /assets/images/posts/albert.jpg
-featured: true
 description: "Abet Mateo is an IT professional and serves with the Liturgical Ministry. He is also the head of his Light Group and attends Sync with his mother every Sunday."
 excerpt_separator: <!--more-->
-author: Tina Tindugan
+author: By Albert Mateo as told to Tina Tindugan
 ---
 <b>Peace that was Shaken</b><br>
 September 13, 2009. My Kuya Arnold called my mom saying, “Ma, hindi ako makahinga.” That time, he was living in Pasig because it was near his work, while my mom and I resided in Manila. He worked night shift for a BPO company and had a busy lifestyle. Whenever we’re together, we normally noticed him coughing hard, but he wouldn’t mind. Until that day. We rushed him to Medical City; he kept on complaining that he could not breathe and that he was exhausted. He was confined for two weeks. My dad, who’s working overseas, had to rush back home to be with us. In September 27, my brother died. He died of AIDS.<!--more-->

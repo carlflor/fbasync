@@ -5,7 +5,7 @@ slug: beautiful-pain-greatest-blessing
 image: /assets/images/posts/rizal-pinlac.jpg
 description: "The author, Rizal and Brenda with their daughter Julia and son, Rich Enzo. The Pinlac family first attended The Feast in Valle Verde in January 2008 and continues to do so till now."
 excerpt_separator: <!--more-->
-author: Rizal Pinlac
+author: By Rizal Pinlac
 ---
 
 My wife, Brenda and I along with our daughter, Julia, then 2 year-old, first attended The Feast in Valle Verde on the first Sunday of January 2008. From that day, we felt home. We never missed a Sunday Feast since then up to today that we are now four attending<!--more--> – with our 2nd child, Rich Enzo, now 6 year-old. When Julia turned 5-year-old, we started leaving her at the Awesome Kids Ministry. At first, they are puzzled at her because she seemed different from other kids, but after a while, they have come to accept and love her as she is – and even made a special program and activities just for her. Julia is now 10 years old.
