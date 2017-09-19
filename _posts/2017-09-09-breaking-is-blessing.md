@@ -3,7 +3,6 @@ layout: post
 title: 'Your Breaking is Your Blessing'
 slug: breaking-is-blessing
 image: /assets/images/posts/marie.jpg
-featured: true
 description: "For a decade, I was constantly struggling to have a stable career in a foreign land and to work on my marriage with my husband who verbally abused me. I focused on all these trials only to find out eventually that God has been preparing me for His greater plans all along."
 excerpt_separator: <!--more-->
 author: By Marie Salve as told to Andrew Sia
