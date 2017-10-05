@@ -24,15 +24,20 @@ kids:
 chorus:
   name: Sync Chorus Auditions
   image: /assets/images/events/sync-chorus.jpg
-  front: /assets/images/events/sync-chorus.jpg
+  front: /assets/images/events/serve.jpg
 
 deaf:
   name: Deaf Ministry
   image: /assets/images/events/deaf-ministry.jpg
+  front: /assets/images/events/deaf-ministry-featured.jpg
 
 kpartner:
   name: KCon Partner
   image: /assets/images/events/kcon-partner.jpg
+
+kspeakers:
+  name: KCon Speakers
+  image: /assets/images/events/kcon-speaker.jpg
 
 blood:
   name: Blood Donation
@@ -45,3 +50,8 @@ serve:
 video:
   name: Feast Video
   image: /assets/images/events/video.jpg
+  front: /assets/images/events/video-featured.jpg
+
+parking:
+  name: Parking
+  banner: /assets/images/events/parking-banner.jpg

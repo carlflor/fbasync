@@ -4,16 +4,9 @@ title: Events
 permalink: /events/
 ---
 <div class="events-main">
-  {% assign banner = "llr" %}
-  {% assign col1 = "serve,chorus,kids,video" | split: "," %}
-  {% assign col2 = "kcon,kpartner,deaf" | split: "," %}
-  {% if banner != "none" %}
-    <div class="event">
-      {% assign event = site.data.events[banner] %}
-      <img class="banner" src="{{ site.baseurl }}{{ event.banner }}">
-      <img class="sub" src="{{ site.baseurl }}{{ event.image }}">
-    </div>
-  {% endif %}
+  {% assign banner = "parking" %}
+  {% assign col1 = "kcon,video,kids" | split: "," %}
+  {% assign col2 = "kspeakers,kpartner,deaf" | split: "," %}
   <div class="cols">
     <div class="col-2 -left">
       {% for event_id in col1 %}
@@ -32,4 +25,11 @@ permalink: /events/
       {% endfor %}
     </div>
   </div>
+  {% if banner != "none" %}
+    <div class="event">
+      {% assign event = site.data.events[banner] %}
+      <img class="banner" src="{{ site.baseurl }}{{ event.banner }}">
+      <img class="sub" src="{{ site.baseurl }}{{ event.image }}">
+    </div>
+  {% endif %}
 </div>

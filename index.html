@@ -1,14 +1,15 @@
 ---
 layout: default
-sched_color: d4a246
-feast_image: treasure.jpg
-feast_title: 'Talk 3: Family'
-feast_date: Sept 24, 2017
+sched_color: c8d6b6
+feast_image: angels-demons.jpg
+feast_title: 'Talk 1'
+feast_date: Oct 8, 2017
 feast_time: 9 AM
+room: Reception Hall
 address: PICC, Pasay City
-bulletin: SYNC-BULLETIN-09172017.pdf
-events: chorus, llr, kcon
-video: "https://www.youtube.com/watch?v=OpGbjAWTEzU"
+bulletin: SYNC-BULLETIN-10012017.pdf
+events: deaf, video, kcon
+video: "https://www.youtube.com/watch?v=ZEIOjBaQYlc"
 ---
 <div class='hero'>
   {% include videobg.html %}
@@ -37,7 +38,7 @@ video: "https://www.youtube.com/watch?v=OpGbjAWTEzU"
       {% assign sync = site.data.sessions[1] %}
       <h4>
         {{page.feast_title}} | {{page.feast_date}} | {{page.feast_time}}<br>
-        {{sync.venue}}<br>
+        {%if page.room != 'none'%}{{page.room}}{% else %}{{sync.venue}}{% endif %}<br>
         {{page.address}}<br>
       </h4>
       <a href="{{ site.baseurl }}/sessions/">View other sessions</a><br><br>
