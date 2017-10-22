@@ -3,7 +3,6 @@ layout: post
 title: "Hearing God's Word Differently"
 slug: hearing-differently
 image: /assets/images/posts/rb.jpg
-featured: true
 description: "FBA Sync attendee Arbizel Kristin Gonzales (RB - first row, second from the right) shares her story on how she was blessed as a Deaf attendee every Sunday."
 excerpt_separator: <!--more-->
 author: By RB Gonzales as told to Tina Tindugan
