@@ -2,25 +2,28 @@
 layout: default
 sched_color: c8d6b6
 feast_image: angels-demons.jpg
-feast_title: 'Big Day'
-feast_date: Oct 29, 2017
+feast_title: 'Christmas Feast'
+feast_date: Dec 24, 2017
 feast_time: 9 AM
-room: Meeting Room 1
-address: PICC, Pasay City
+room: Cinema 1
+address: Mall of Asia, Pasay City
 bulletin: SYNC-BULLETIN-10222017.pdf
-events: deaf, video, kcon
+events: deaf, video, kids
 video: "https://www.youtube.com/watch?v=ZEIOjBaQYlc"
 ---
+<div class="announcement">
+  <img class="image" src="{{ '/assets/images/events/christmas-feast.jpg' | prepend: site.baseurl }}">
+</div>
 <div class='hero'>
   {% include videobg.html %}
   <div class="message">
-    <img class="fba-logo" src="{{ '/assets/images/fbasync_white.png' | prepend: site.baseurl }}">
+    <img class="fba-logo" src="{{ '/assets/images/feastmoa-red.png' | prepend: site.baseurl }}">
     <div class="message-box">
-      <h1>Welcome Home</h1>
+      <h1>Our New Home</h1>
     </div>
   </div>
 </div>
-<div class="talk-series">
+<div class="talk-series hide-me">
   <div class="image-wrapper">
     <img class="image" src="{{ '/assets/images/talks/' | prepend: site.baseurl | append: page.feast_image }}">
   </div>
@@ -65,7 +68,7 @@ video: "https://www.youtube.com/watch?v=ZEIOjBaQYlc"
     {% endif %}
   {% endfor %}
 </div>
-<div class="events-panel">
+<div class="events-panel hide-me">
   {% assign events = page.events | split: ", " %}
   {% for event_id in events %}
     {% assign event = site.data.events[event_id] %}

@@ -6,7 +6,6 @@ image: /assets/images/posts/paolo.jpg
 description: "Juan Paolo Ypol (leftmost) is a 29 year-old Financial Consultant. He also serves in the warmth ministry and attends SYNC every Sunday."
 excerpt_separator: <!--more-->
 author: By Juan Paolo Ypol as told to Maja Lumaban
-featured: true
 ---
 <b>Taking Leaps of Faith</b><br>
 I started attending The Feast in early 2014. My girlfriend invited me as she wanted a breather from our usual dates. We would usually attend the 8AM session but since we always arrived late, we decided to join the 9AM Sync instead. Sync provided a “homey” ambiance since it was not as crowded as the 8AM session. We became regular attendees and later on joined the Sync family.<!--more-->
