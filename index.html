@@ -1,18 +1,17 @@
 ---
 layout: default
-sched_color: c8d6b6
-feast_image: angels-demons.jpg
-feast_title: 'Christmas Feast'
-feast_date: Dec 24, 2017
+sched_color: a4a4a4
+feast_image: valentines.jpg
+feast_title: Grand Launch + Valentine's Special
+feast_date: Feb 18, 2018
 feast_time: 9 AM
-room: Cinema 1
-address: Mall of Asia, Pasay City
+room: Centerstage
+address: SM Mall of Asia
 bulletin: SYNC-BULLETIN-10222017.pdf
 events: deaf, video, kids
-video: "https://www.youtube.com/watch?v=ZEIOjBaQYlc"
+video: none
 ---
 <div class="announcement">
-  <img class="image" src="{{ '/assets/images/events/christmas-feast.jpg' | prepend: site.baseurl }}">
 </div>
 <div class='hero'>
   {% include videobg.html %}
@@ -23,7 +22,7 @@ video: "https://www.youtube.com/watch?v=ZEIOjBaQYlc"
     </div>
   </div>
 </div>
-<div class="talk-series hide-me">
+<div class="talk-series">
   <div class="image-wrapper">
     <img class="image" src="{{ '/assets/images/talks/' | prepend: site.baseurl | append: page.feast_image }}">
   </div>
@@ -40,7 +39,7 @@ video: "https://www.youtube.com/watch?v=ZEIOjBaQYlc"
       <h2>Come home<br>this Sunday</h2>
       {% assign sync = site.data.sessions[1] %}
       <h4>
-        {{page.feast_title}} | {{page.feast_date}} | {{page.feast_time}}<br>
+        {{page.feast_title}}<br>{{page.feast_date}} | {{page.feast_time}}<br>
         {%if page.room != 'none'%}{{page.room}}{% else %}{{sync.venue}}{% endif %}<br>
         {{page.address}}<br>
       </h4>
@@ -63,7 +62,7 @@ video: "https://www.youtube.com/watch?v=ZEIOjBaQYlc"
       </div>
       <hr>
       <div class="email">
-        We'd love to hear your story. Let us know through <b>story@fbasync.com</b>
+        We'd love to hear your story. Let us know through <b>info@thefeastmallofasia.com</b>
       </div>
     {% endif %}
   {% endfor %}

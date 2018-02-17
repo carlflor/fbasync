@@ -1,27 +1,12 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-title: The Feast Bay Area SYNC
-email: hello@fbasync.com
+title: The Feast Mall of Asia
+email: info@thefeastmallofasia
 description: > # this means to ignore newlines until "baseurl:"
   A Catholic prayer meeting of the Light of Jesus family.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://fbasync.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://thefeastmallofasia.com" # the base hostname & protocol for your site, e.g. http://example.com
 
-facebook: "https://www.facebook.com/FeastBayAreaSYNC/"
-instagram: "https://www.instagram.com/feastbayareasync/"
+facebook: "https://www.facebook.com/TheFeastMallofAsia/"
+intagram: "https://www.instagram.com/thefeastmallofasia/"
 
 
 

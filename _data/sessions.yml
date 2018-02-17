@@ -4,11 +4,6 @@
     - Bro. Audee Villaraza
   time: 8:00 AM & 10:45 AM
   venue: Plenary Hall
-- name: SYNC
-  builders:
-    - Bro. Didoy Lubaton
-  time: 9:00 AM
-  venue: Meeting Room 1
 - name: Youth High
   builders:
     - Bro. Anthony Valenzuela
@@ -20,7 +15,7 @@
     - Bro. JB Rodriguez
   time: 11:30 AM
   venue: Summit Hall D & E
-- name: Afternoon Sessions
+- name: M3SY
   builders:
     - Bro. Alvin Barcelona
     - Bro. JC libiran

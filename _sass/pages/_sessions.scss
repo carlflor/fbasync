@@ -1,9 +1,9 @@
 .session {
   background-color: $light-gray;
 
-  &:nth-child(2) {
+  &.-black {
     background-color: $off-black;
-    color: white;
+    color: $white;
   }
 
   .details {
