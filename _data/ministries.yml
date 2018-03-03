@@ -2,52 +2,114 @@
   description:
     Welcome Home.
     <br><br>
-    The Warmth volunteers welcome us home. They make us feel at home. They can be your home. They can even be your first encounter of Jesus at The Feast Mall of Asia. Whenever they say welcome home, they let you bring Jesus home.
+    The Warmth volunteers welcome us home. They make us feel at home. They can be your
+    home. They can even be your first encounter of Jesus at the Feast Mall of Asia. Whenever
+    they say welcome home, they let you bring Jesus home.
     <br><br>
-    They are there for you to welcome you, to assist you during the The Feast session, and to help you further even after the session.
-    <br><br>
-    If you think God is calling you to a service of warmth, approach Sis Melo or Bro Ed after the service.
+    They are there for you to welcome you, to assist you during the Feast MOA session,
+    and to help you further even after the session.
+
 - name: Music
   description:
     They sing. They play.<br>
     They lead. They pray.
     <br><br>
-    With the musical talents God has given them, our music servants surely lead us closer to God. They help us express our praise. They help us lift our worship. They help us receive God’s word.
-    <br><br>
-    If you think God is calling you to a service of music, approach Bro Rex after the service.
+    With the musical talents God has given them, our music servants surely lead us closer to
+    God. They help us express our praise. They help us lift our worship. They help us receive
+    God’s word.
+
 - name: Production
   description:
     Lights. Sounds. Camera. Visuals.
     <br><br>
-    The Production may not be the most visible persons during the session, but they ensure that you encounter God at the FEAST. Their dedication to serve God and His people are on the spot as they can be very meticulous in all production details.
-    <br><br>
-    If you think God is calling you to a service of production, approach Bro Champ after the service.
+    The Production may not be the most visible persons during the session, but they ensure that
+    you encounter God at the FEAST. Their dedication to serve God and His people are on the
+    spot as they can be very meticulous in all production details.
+
 - name: Communications
   description:
     Bulletin. Social Media. Livestream.
     <br><br>
-    The Communications’ major role is to help spread the Word of God whether online or offline. Lined up with photographers, writers, graphic artists and videographers, this ministry makes sure that you are fed with God’s Word even outside the The Feast.
+    The Communications’ major role is to help spread the Word of God whether online or
+    offline. Lined up with photographers, writers, graphic artists and videographers, this
+    ministry makes sure that you are fed with God’s Word even outside the Sync.
+
+- name: Liturgy
+  description:
+    Commentators. Lectors. Acolytes. Lay Ministers.
     <br><br>
-    If you think God is calling you to a service of communications, approach Sis Jaja after the service.
+    The liturgy servants aid us in experiencing and worshipping Jesus who is present in the
+    celebration of the Holy Eucharist. They read the Word of God. They help us respond to the
+    Word of God. They let us receive Jesus in the Holy Eucharist.
+
+- name: Security
+  description:
+    “Your safety is our utmost concern.”
+    <br><br>
+    The Security Ministry makes Center Stage Cinema a safe haven for worship. Awake and
+    aware, the ministry protects the congregation from harm. It also provides instructions in
+    emergency situations, such as fire and earthquake. Just like Jesus, they Security ministers
+    keep us safe.
+
+- name: Servant Care
+  description:
+    They serve. We care.
+    <br><br>
+    When servants devote their time, treasure and talent to the Lord, they need care. Thank
+    God, Servant Care Ministry looks after the servants’ formation, information and
+    transformation.
+
+- name: Connectors
+  description:
+    First time mo? No worries. The Connectors got you covered.
+    <br><br>
+    The Connectors can make your first day extraordinary as they give you a special gift and,
+    more importantly, the gift of friendship. They can help you establish your first connection
+    with God and the FEAST Community.
+
 - name: Formation
   description:
-    If you want to know Jesus more, the Formation helps you deepen your relationship with Him. You will surely be blessed by the various programs it has from one-on-one discipleship to the FEAST Bible Study.
-    <br><br>
-    If you think God is calling you to a service of formation, approach Bro Ace after the service.
+    If you want to know Jesus more, the Formation helps you deepen your relationship with
+    Him. You will surely be blessed by the various programs it has from one-on- one discipleship
+    to the FEAST Bible Study.
+
 - name: Deaf and<br>Hard of Hearing
   description:
-    The Deaf and Hard of Hearing (HOH) helps our deaf and HOH brothers and sisters appreciate the holy mass and the FEAST Talk with their sign language skills. Armed with their bare hands, fingers, wrists and animated facial expression, our servants ensure our deaf and HOH brethren that they can also be closer to Jesus and that they have a home at The Feast Mall of Asia.
-    <br><br>
-    If you think God is calling you to a service of interpreting for the deaf and the HOH, approach Sis Naty after the service or email us through <b>deafhoh@fbasync.com</b>.
+    The Deaf and Hard-of- Hearing (HOH) helps our deaf and HOH brothers and sisters
+    appreciate the holy mass and the FEAST Talk with their sign language skills. Armed with
+    their bare hands, fingers, wrists and animated facial experiences, our servants ensure our
+    deaf and HOH brethren that they can also be closer to Jesus and that they have a home at
+    The Feast Mall of Asia.
+
 - name: Prayer
   description:
-    If you want people to pray with you, our Prayer warriors are here for you. If you can’t find the words to pray, our Prayer warriors are here for you. Guided by the Sacred Scriptures and Sacred Tradition, our Prayer warriors can serve you not just on a Sunday, but all the days of the week.
+    In the name of Father, and of the Son, and of the Holy Spirit.
     <br><br>
-    If you think God is calling you to a service of interceding, approach Sis Jiji after the service.
+    If you want people to pray with you, our Prayer warriors are here for you. If you can’t find
+    the words to pray, our Prayer warriors are here for you. Guided by the Sacred Scriptures and
+    Sacred Tradition, our Prayer warriors can serve you not just on a Sunday, but all the days of
+    the week.
+
 - name: Awesome Kids
   description:
     The Feast Mall of Asia session loves kids! They are awesome!
     <br><br>
-    Our Awesome Kids volunteers can teach your kids to be closer to Jesus through the Word and through prayer. Providing your kids with a safe, yet interactive environment, our awesome teachers can surely make the Awesome Kids your kids’ home every Sunday.
+    Our Awesome Kids volunteers can teach your kids to be closer to Jesus through the Word
+    and through prayer. Providing your kids with a safe, yet interactive environment, our
+    awesome teachers can surely make the Awesome Kids your kids’ home every Sunday.
+
+- name: Light
+  description:
+    “Go and make disciples of all nations.” (Matthew 28:19)
     <br><br>
-    If you think God is calling you to a service of teaching kids, approach Sis Liza and Sis Yetski after the service.
+    The Light Ministry responds to Jesus’ commission and takes it into action. The Feast Light
+    emissaries and the Light Group facilitators aim to share Jesus by being Jesus to them. In
+    doing so, they journey with God and His people.
+
+- name: Singles
+  description:
+    Single and happy.
+    <br><br>
+    The singles of the Feast Mall of Asia are a happy lot. Simply because they have Jesus in
+    them. They know this with confidence, thanks to the retreats, recollections, light groups and
+    fellowships.  
