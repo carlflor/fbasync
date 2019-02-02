@@ -1,23 +1,58 @@
-- name: Morning Sessions
-  builders:
-    - Bro. Bo Sanchez
-    - Bro. Audee Villaraza
-  time: 8:00 AM & 10:45 AM
-  venue: Plenary Hall
-- name: Youth High
-  builders:
-    - Bro. Anthony Valenzuela
-  time: 10:45 AM
-  venue: Meeting Room 2
-- name: Audience of One
-  builders:
-    - Bro. Adrian Panganiban
-    - Bro. JB Rodriguez
-  time: 11:30 AM
-  venue: Summit Hall D & E
-- name: M3SY
-  builders:
-    - Bro. Alvin Barcelona
-    - Bro. JC libiran
-  time: 1:15 PM & 3:45 PM
-  venue: Plenary Hall
+- title: The Feast Bay Area Sessions (Sundays)
+  scheds:
+    - name: Morning Sessions
+      builders:
+        - Bro. Bo Sanchez
+        - Bro. Audee Villaraza
+      time: 8:00 AM & 10:45 AM
+      venue: Plenary Hall
+      address: PICC, Pasay City
+    - name: Afternoon Session
+      builders:
+        - Bro. Alvin Barcelona
+      time: 1:45 PM
+      venue: Plenary Hall
+      address: PICC, Pasay City
+    - name: OPM
+      builders:
+        - Bro. JC libiran
+      time: 2:30 PM
+      venue: Summit Hall D
+      address: PICC, Pasay City
+    - name: Audience of One
+      builders:
+        - Bro. Adrian Panganiban
+        - Bro. JB Rodriguez
+      time: 9:00 AM
+      venue: Cinema 3
+      address: Robinsons Ermita
+- title: Youth Home (Wednesdays)
+  scheds:
+    - name:
+      builders:
+        - Bro. Anthony Valenzuela
+      time: 7:00 PM
+      venue: Pilgrim's Center
+      address: Pablo Ocampo Ext. Manila (Vito Cruz)
+- title: The Feast Manila (Fridays)
+  scheds:
+    - name:
+      builders:
+        - Bro. Philip Sumera
+      time: 3:00 PM & 5:30 PM
+      venue: Cinema 4
+      address: SM Manila
+    - name:
+      builders:
+        - Bro. Ryan Capitulo
+      time: 8:00 PM
+      venue: Cinema 4
+      address: SM Manila
+- title: The Feast Manila (Saturdays)
+  scheds:
+    - name:
+      builders:
+        - Bro. Ryan Capitulo
+      time: 6:30 PM
+      venue: Cinema 4
+      address: SM Manila
