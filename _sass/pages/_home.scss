@@ -1,12 +1,10 @@
 .hero {
   min-height: 400px;
-  height: 70vh;
+  height: 60vh;
   position: relative;
 
-  @include media-query($on-palm) {
-    background: url("/assets/images/feast-bay-area-sync-head.jpg");
-    background-size: cover;
-  }
+  background: url("/assets/images/feast-bay-area-sync-head.jpg");
+  background-size: cover;
 
   .message {
     align-items: center;
@@ -21,26 +19,7 @@
     width: 100%;
 
     > .fba-logo {
-      margin-bottom: 50px;
       width: 150px;
-    }
-
-    > .message-box {
-      > h1 {
-        border: 3px solid $white;
-        @include relative-font-size(4.236);
-        font-weight: bold;
-        padding: 30px 70px;
-        text-align: center;
-        text-transform: uppercase;
-
-        @include media-query($on-palm) {
-          font-size: 45px;
-          line-height: 50px;
-          padding: 10px;
-          max-width: 250px;
-        }
-      }
     }
   }
 }
@@ -229,5 +208,44 @@
     height: 24vw;
     width: 100%;
     margin-top: $spacing-unit;
+  }
+}
+
+.fwn-panel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 700px;
+  margin-bottom: $spacing-unit;
+  background: url("/assets/images/fwn-bg.jpg") center center;
+  background-size: cover;
+  overflow: hidden;
+  position: relative;
+
+  .image {
+    width: auto;
+    height: 100%;
+  }
+
+  .ticket {
+    color: white;
+    border: 5px solid white;
+    font-weight: bold;
+    font-style: italic;
+    position: absolute;
+    bottom: 30px;
+    display: block;
+    font-size: 30px;
+    padding: 20px 40px;
+    text-decoration: none;
+
+    &:hover {
+      background: black;
+      border: 5px solid black;
+    }
+  }
+
+  @include media-query($on-palm) {
+    height: 550px;
   }
 }

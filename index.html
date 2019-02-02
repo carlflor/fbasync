@@ -1,25 +1,20 @@
 ---
 layout: default
-sched_color: a4a4a4
-feast_image: valentines.jpg
-feast_title: Talk Series
-feast_date: March 4, 2018
+sched_color: c1daff
+feast_image: feb2018.jpg
+feast_title: "Talk 1: Disordered Perception"
+feast_date: February 3, 2019
 feast_time: 9 AM
-room: Centerstage
+room: Centerstage Cinema
 address: SM Mall of Asia
-bulletin: SYNC-BULLETIN-10222017.pdf
+bulletin: none
 events: deaf, video, kids
 video: none
 ---
-<div class="announcement">
-</div>
 <div class='hero'>
   {% include videobg.html %}
   <div class="message">
     <img class="fba-logo" src="{{ '/assets/images/feastmoa-red.png' | prepend: site.baseurl }}">
-    <div class="message-box">
-      <h1>Our New Home</h1>
-    </div>
   </div>
 </div>
 <div class="talk-series">
@@ -48,6 +43,7 @@ video: none
   </div>
   </div>
 </div>
+{% include announcement.html %}
 <div class="featured-story-panel">
   {% for post in site.posts %}
     {% if post.featured %}
