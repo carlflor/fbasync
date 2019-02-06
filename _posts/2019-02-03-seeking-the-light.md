@@ -3,7 +3,7 @@ layout: post
 title: 'Seeking The Light In My Darkness'
 slug: seeking-the-light
 image: /assets/images/posts/donnabelle.jpg
-description: Donnabelle Bata-Aquino recounts how God rescued her from her depression to a life of service for Him.
+description: "Donnabelle Bata-Aquino recounts how God rescued her from her depression to a life of service for Him."
 excerpt_separator: <!--more-->
 author: By Donnabelle Aquino, edited by Andrew Sia
 featured: true

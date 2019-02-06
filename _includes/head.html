@@ -22,14 +22,11 @@
   {% include google-analytics.html %}
   {% endif %}
 
-  {% if page.image %}
-    {% assign imagesrc = page.image | prepend: site.baseurl | prepend: site.url %}
-  {% else %}
-    {% assign imagesrc = "/assets/images/fmoa-og.jpg" | prepend: site.baseurl | prepend: site.url %}
-  {% endif %}
-  <meta property="og:url" content="{{site.url}}" />
-  <meta property="og:title" content="{{site.title}}" />
+  {% assign ogimagepath = page.image | default: "/assets/images/fmoa-og.jpg" %}
+
+  <meta property="og:url" content="{{ page.url | prepend: site.url}}" />
+  <meta property="og:title" content="{{ page.title | default: site.title }}" />
   <meta property="og:type" content="website" />
-  <meta property="og:description" content="{{site.description}}" />
-  <meta property="og:image" content="{{imagesrc}}" />
+  <meta property="og:description" content="{{ page.description | default: site.description}}" />
+  <meta property="og:image" content="{{ ogimagepath | prepend: site.baseurl | prepend: site.url }}" />
 </head>

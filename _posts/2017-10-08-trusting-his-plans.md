@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "Trusting in God's Plans"
-slug: god-allows
+slug: trusting-in-god
 image: /assets/images/posts/lusele.jpg
-description: ""
+description: "Lusele shares about how she has been blessed by letting go and letting God."
 excerpt_separator: <!--more-->
 author: By Lusele Salmingo, as told to Tina Tindugan
 permalink: stories/:slug

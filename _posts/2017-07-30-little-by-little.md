@@ -3,7 +3,7 @@ layout: post
 title: 'Little By Little'
 slug: little-by-little
 image: /assets/images/posts/meet-anel.jpg
-description: Anel is a graduate of Lovelife Retreat Batch 23 and actively serves as a photographer under the Communications Ministry.
+description: "Anel is a graduate of Lovelife Retreat Batch 23 and actively serves as a photographer under the Communications Ministry."
 excerpt_separator: <!--more-->
 permalink: stories/:slug
 ---
