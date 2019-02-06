@@ -6,6 +6,7 @@ image: /assets/images/posts/lusele.jpg
 description: ""
 excerpt_separator: <!--more-->
 author: By Lusele Salmingo, as told to Tina Tindugan
+permalink: stories/:slug
 ---
 <b>The unhealthy cycle</b><br>
 I was an OFW and worked in Saudi last 2012. During my stay there, I found myself involved in a toxic and unhealthy relationship which lasted for 4 years. I was yearning for love and affection, and the guy I was with was able to give me the love I was looking for, or so I thought.<!--more-->

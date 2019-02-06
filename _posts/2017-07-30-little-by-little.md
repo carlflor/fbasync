@@ -5,6 +5,7 @@ slug: little-by-little
 image: /assets/images/posts/meet-anel.jpg
 description: Anel is a graduate of Lovelife Retreat Batch 23 and actively serves as a photographer under the Communications Ministry.
 excerpt_separator: <!--more-->
+permalink: stories/:slug
 ---
 I first attended the FBA Sync because my girlfriend, Karisa, served there. That time, I felt like it was an extension of Feast Manila where I used to attend and serve because the Builder there was Kuya Migs, better known as Bro. Migs Ramirez.
 <!--more-->

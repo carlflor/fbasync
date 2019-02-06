@@ -7,6 +7,7 @@ description: "Rico Gonzales, together with his wife Bianca and daughter Sophia. 
 "
 excerpt_separator: <!--more-->
 author: By Rico and Bianca Gonzalez as told to Ariel Gozon.
+permalink: stories/:slug
 ---
 <b>They fought hard to get married.</b><br>
 It was after the birth of little Sophia when Bianca became an estranged wife. It was during this challenging part of her life that she met Rico. He was actively serving in another charismatic community. As they serve God together, they eventually fell in love, and like any couple, they enjoyed their partnership. However, Bianca’s situation made their marriage a mere dream they might never obtain as a blessing. This went on until they asked God in prayer what their heart longs for. As they prayed for their dream, they acted.<!--more-->

@@ -6,6 +6,7 @@ image: /assets/images/posts/rb.jpg
 description: "FBA Sync attendee Arbizel Kristin Gonzales (RB - first row, second from the right) shares her story on how she was blessed as a Deaf attendee every Sunday."
 excerpt_separator: <!--more-->
 author: By RB Gonzales as told to Tina Tindugan
+permalink: stories/:slug
 ---
 <b>How the Feast changed her life</b><br>
 RB is a solo parent raising her two children. She supports her family financially as a way of giving back to them for all the special care they provided her when she was growing up.<!--more-->

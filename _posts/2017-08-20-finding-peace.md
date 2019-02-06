@@ -6,6 +6,7 @@ image: /assets/images/posts/cams.jpg
 description: "Cams Alfaro and her son Biboy used to spend their Sundays by themselves. But now, they have found a new home at Sync where Biboy serves as a greeter for the Warmth Ministry, and with Cams’ batchmates from LLR Batch 21."
 excerpt_separator: <!--more-->
 author: By Cams Alfaro as told to Tina Tindugan
+permalink: stories/:slug
 ---
 <b>The Struggle</b><br>
 Cams is a single mother who grew up without a father. She gave birth to her son Biboy, got stuck in a ten-year relationship cycle with Biboy’s dad, trying to work things out to no avail. Cams ended up being clinically depressed; even her own family did not know how to help her. She hid inside her shell and away from people, fearing that she’ll be judged.<!--more-->

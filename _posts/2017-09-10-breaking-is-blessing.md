@@ -6,6 +6,7 @@ image: /assets/images/posts/marie.jpg
 description: "For a decade, I was constantly struggling to have a stable career in a foreign land and to work on my marriage with my husband who verbally abused me. I focused on all these trials only to find out eventually that God has been preparing me for His greater plans all along."
 excerpt_separator: <!--more-->
 author: By Marie Salve as told to Andrew Sia
+permalink: stories/:slug
 ---
 <b>Struggles in a foreign land</b><br>
 In 2008, I moved to Australia with my then-boyfriend to work and to eventually get married without my parents’ consent. Even back then, my relationship with him wasn’t exactly smooth sailing as I expected it to be. But because I loved him and thought that he will change after our marriage, I continued on. In 2010, my parents found out that I was pregnant, and that was the only time when they knew about our marriage.<!--more-->

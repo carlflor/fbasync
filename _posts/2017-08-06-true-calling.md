@@ -5,6 +5,7 @@ slug: one-true-calling
 image: /assets/images/posts/zena.jpg
 description: Zena Magana works as a school guidance counselor. She is part of the Deaf and Hard-of-Hearing Ministry and serves as an interpreter every Sunday.
 excerpt_separator: <!--more-->
+permalink: stories/:slug
 ---
 Ever since my elementary years, I have always been interested in learning sign language. Because of this, in 2014, I decided to take up Filipino Sign Language course in De La Salle - College of Saint Benilde.
 <!--more-->
