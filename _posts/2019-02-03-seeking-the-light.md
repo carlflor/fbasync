@@ -6,7 +6,6 @@ image: /assets/images/posts/donnabelle.jpg
 description: "Donnabelle Bata-Aquino recounts how God rescued her from her depression to a life of service for Him."
 excerpt_separator: <!--more-->
 author: By Donnabelle Aquino, edited by Andrew Sia
-featured: true
 permalink: stories/:slug
 ---
 It was my daughter’s first-year birthday when my husband died from a respiratory failure. I became depressed as a result and started asking the Lord why this had to happen. I only dreamt of a happy life with my family but now that my husband left us, to whom do I turn? My heart became full of anger and bitterness.
